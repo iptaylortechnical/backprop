@@ -52,7 +52,7 @@ module.exports = class Network {
   }
 
   start(inputParams) {
-    let first = this.inputLayer.processLayer(inputParams);
+    let first = this.inputLayer.processLayer([inputParams]);
     let datum = [];
     let last = this.layers[0].processLayer(first);
 
