@@ -1,6 +1,6 @@
 {
   "name": "guster",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple but flexible neural net library for Node.js",
   "main": "network.js",
   "scripts": {
