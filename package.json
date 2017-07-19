@@ -1,0 +1,29 @@
+{
+  "name": "backprop",
+  "version": "1.0.0",
+  "description": "A simple but flexible neural net library for Node.js",
+  "main": "network.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iptaylortechnical/backprop.git"
+  },
+  "keywords": [
+    "neural",
+    "network",
+    "node.js",
+    "ann",
+    "machine",
+    "learning",
+    "deep",
+    "learning"
+  ],
+  "author": "Isaiah Taylor <iptaylortechnical@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iptaylortechnical/backprop/issues"
+  },
+  "homepage": "https://github.com/iptaylortechnical/backprop#readme"
+}

@@ -1,5 +1,5 @@
 const Layer = require('./layer');
-const OutputNeuron = require('./outputNeuron');
+const OutputNeuron = require('./neurons/outputNeuron');
 
 module.exports = class OutputLayer extends Layer {
   constructor(neuronCount) {

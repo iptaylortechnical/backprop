@@ -1,5 +1,3 @@
-const Connector = require('./connector');
-
 module.exports = class Neuron {
   constructor(weights = [], outputCount) {
     this.weights = weights;

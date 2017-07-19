@@ -1,5 +1,5 @@
 const Layer = require('./layer');
-const HiddenNeuron = require('./hiddenNeuron');
+const HiddenNeuron = require('../neurons/hiddenNeuron');
 
 module.exports = class HiddenLayer extends Layer {
 

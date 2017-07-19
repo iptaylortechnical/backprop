@@ -1,8 +1,8 @@
-const HiddenLayer = require('./hiddenLayer');
-const InputNeuron = require('./inputNeuron');
-const OutputNeuron = require('./outputNeuron');
-const InputLayer = require('./inputLayer');
-const OutputLayer = require('./outputLayer');
+const HiddenLayer = require('./layers/hiddenLayer');
+const InputNeuron = require('./neurons/inputNeuron');
+const OutputNeuron = require('./neurons/outputNeuron');
+const InputLayer = require('./layers/inputLayer');
+const OutputLayer = require('./layers/outputLayer');
 
 module.exports = class Network {
   constructor(numberOfLayers, neuronsPerLayer, inputCount, outputCount, weights = []) {
