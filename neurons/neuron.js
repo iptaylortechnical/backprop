@@ -27,7 +27,7 @@ module.exports = class Neuron {
 
   randomizeWeights () {
     for (let w in this.weights) {
-      this.weights[w] = Math.random();
+      this.weights[w] = Math.random() - .5;
     }
   }
 
@@ -35,7 +35,7 @@ module.exports = class Neuron {
     this.weights = [];
 
     for (let n = 0; n < this.outputCount; n++) {
-      this.weights.push(Math.random());
+      this.weights.push(Math.random() - .5);
     }
   }
 
