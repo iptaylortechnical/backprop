@@ -11,6 +11,7 @@ npm install guster --save
 Usage:
 
 ```javascript
+//example: XOR block
 let Guster = require('guster')
 
 let hiddenLayers = 1;
