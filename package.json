@@ -1,6 +1,6 @@
 {
-  "name": "backprop",
-  "version": "1.0.0",
+  "name": "guster",
+  "version": "0.1.0",
   "description": "A simple but flexible neural net library for Node.js",
   "main": "network.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iptaylortechnical/backprop.git"
+    "url": "git+https://github.com/iptaylortechnical/guster.git"
   },
   "keywords": [
     "neural",
@@ -23,7 +23,7 @@
   "author": "Isaiah Taylor <iptaylortechnical@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/iptaylortechnical/backprop/issues"
+    "url": "https://github.com/iptaylortechnical/guster/issues"
   },
-  "homepage": "https://github.com/iptaylortechnical/backprop#readme"
+  "homepage": "https://github.com/iptaylortechnical/guster#readme"
 }
