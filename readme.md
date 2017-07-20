@@ -50,3 +50,5 @@ You can also store that weight set for later manipulation.
 ```javascript
 let generatedWeights = network.getWeights();
 ```
+
+Backpropogation coming soon.
